@@ -42,10 +42,10 @@ dpkg -i homeassistant-supervised.deb
 
 systemctl enable firewalld
 
-sudo systemctl start firewalld 
+systemctl start firewalld 
 
-sudo firewall-cmd --state
+firewall-cmd --state
 
-sudo firewall-cmd --permanent --add-port=1-9999/tcp
+firewall-cmd --permanent --add-port=1-9999/tcp
 
-sudo firewall-cmd --reload
+firewall-cmd --reload
