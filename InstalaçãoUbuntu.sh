@@ -19,11 +19,11 @@ dbus -y
 
 curl -fsSL get.docker.com | sh
 
-wget https://github.com/diego780705/HomeAssistant/blob/main/os-agent_1.2.2_linux_x86_64.deb
+wget https://github.com/diego780705/HomeAssistant/raw/a13052d267deeccb6814d47d5f6570ba9536f4e0/os-agent_1.2.2_linux_x86_64.deb
 
 dpkg -i os-agent_1.2.2_linux_x86_64.deb
 
-wget https://github.com/diego780705/HomeAssistant/blob/main/homeassistant-supervised.deb
+wget https://github.com/diego780705/HomeAssistant/raw/a13052d267deeccb6814d47d5f6570ba9536f4e0/homeassistant-supervised.deb
 
 dpkg -i homeassistant-supervised.deb
 
