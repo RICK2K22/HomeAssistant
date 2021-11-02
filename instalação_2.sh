@@ -17,19 +17,6 @@ vim \
 openssh-server \
 dbus -y
 
-#sudo dpkg-reconfigure tzdata
-#Escolha "america" --- 2
-#Escolha "são paulo" ---- 134
-
-#sudo passwd root
-
-#sudo vi /etc/ssh/sshd_config
-
-#PermitRootLogin yes
-#PasswordAuthentication yes
-
-service ssh restart
-
 curl -fsSL get.docker.com | sh
 
 wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb
@@ -49,3 +36,5 @@ firewall-cmd --state
 firewall-cmd --permanent --add-port=1-9999/tcp
 
 firewall-cmd --reload
+
+reboot
