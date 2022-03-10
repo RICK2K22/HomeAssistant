@@ -9,27 +9,16 @@ apt update -y && sudo apt dist-upgrade -y && sudo apt autoremove -y
 sleep 2
 
 apt-get install \
-sleep 2
 jq \
-sleep 2
 wget \
-sleep 2
 curl \
-sleep 2
 udisks2 \
-sleep 2
 libglib2.0-bin \
-sleep 2
 network-manager \
-sleep 2
 iputils-ping \
-sleep 2
 firewalld \
-sleep 2
 vim \
-sleep 2
 openssh-server \
-sleep 2
 dbus -y
 
 sleep 2
