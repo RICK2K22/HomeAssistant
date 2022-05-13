@@ -39,7 +39,7 @@ dpkg -i os-agent_1.2.2_linux_x86_64.deb
 
 sleep 2
 
-wget https://github.com/diego780705/HomeAssistant/raw/a13052d267deeccb6814d47d5f6570ba9536f4e0/homeassistant-supervised.deb
+wget https://github.com/diego780705/HomeAssistant/raw/3e54068c33895aaa14229ca0347f3dd428cfd35f/homeassistant-supervised.deb
 
 sleep 2
 
